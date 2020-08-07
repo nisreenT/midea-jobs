@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="java script.js"></script>
+
+    <title>Country Group</title>
+
+
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <div class="buttons">
+
+                <button class="button home-button w3-large" data-href="" title="Go to the home page to see the latest top stories."><i class="fa fa-home"></i><span class="button-text">Home</span></button>
+                <button class="button search-button w3-large"><i class="fa fa-search"></i><span class="button-text text-display-none ">Search</span></button>
+            </div>
+
+
+            <div class="right-buttons">
+                <button class="login-button">Log In</button>
+
+                <input id="textAreaToggle" type="checkbox" />
+
+                <div class="on-click" id="textarea">
+                    <div class="modal user-settings-modal " style="width: 260px; position: fixed; margin-left: 0px; margin-top: 0px; top: 45px; left: 80%;" role="dialog" aria-labelledby="user-settings-modal-modal-heading" tabindex="-1">
+                        <div class="modal-header">
+                            <h3 class="modal-heading" id="user-settings-modal-modal-heading"></h3>
+
+                        </div>
+                        <div class="modal-content">
+                            <div class="menu edition-menu">
+                                <h5 class="modal-heading">Edition</h5>
+                                <ul>
+
+                                    <li><a href="#" data-edition="us" class="selected">U.S.</a></li>
+                                    <li><a href="#" data-edition="global">International</a></li>
+
+                                    <li><a href="#" data-edition="chinese">中文 (Chinese)</a></li>
+                                    <li><a href="#" data-edition="spanish">Español</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu help-menu">
+                                <h5 class="modal-heading">Help</h5>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu type-sizer-menu">
+                                <h5 class="modal-heading">Type Size</h5>
+                                <ul>
+                                    <li data-size="small" class="type-sizer-small"><a href="javascript:;">A <span class="visually-hidden">Type size small</span></a></li>
+                                    <li data-size="medium" class="type-sizer-medium"><a href="javascript:;">A <span class="visually-hidden">Type size medium</span></a></li>
+                                    <li data-size="large" class="type-sizer-large"><a href="javascript:;">A <span class="visually-hidden">Type size large</span></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                        <button type="button" class="modal-close hidden" aria-disabled="false"><i class="icon"></i><span class="visually-hidden">Close this modal window</span></button>
+                        <div class="modal-pointer modal-pointer-up-right"><div class="modal-pointer-conceal"></div></div>
+                    </div>
+                </div>
+
+                <label for="textAreaToggle" id="MoreLess"> <i style="font-size:24px" class="fa">&#xf013;</i> <span class="button-text">Settings</span> </label>
+
+
+            </div>
+
+            <div class="topic">
+
+                <h1 class="topic-heading">
+                    <a id="topic-heading-link" href="index.html">
+                        <span class="topic-title">Country Group</span>
+                    </a>
+                </h1>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="content" style="width:100%">
+        <table class="table_content">
+            <tr class="color1">
+                <td class="T1 small-section">Exports and imports in the Gulf Cooperation Council in 2015 </td>
+            </tr>
+            <tr class="color1">
+                <td class="T2 big-section" id="GulfCooperationCouncil">
+                    <center>
+                        <div class="chats" id="barchart_material" style="width: 800px; height: 400px; border-style: groove;">
+
+                        </div>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <table class="table_content">
+            <tr class="color2">
+                <td class="T2 small-section">Exports and imports in Other Arab League Countries in 2015</td>
+            </tr>
+            <tr class="color2">
+                <td class="T1 big-section" id="OtherArabLeagueCountries"><center><div class="chats" id="chart_div" style="width: 800px; height: 400px; border-style: groove;"></div></center></td>
+            </tr>
+
+        </table>
+
+        <table class="table_content">
+            <tr class="color3">
+                <td class="T1 small-section">Exports and imports in Islamic not Arabic countries in 2015 </td>
+            </tr>
+            <tr class="color3">
+                <td class="T2 big-section" id="IslamicnotArabiccountries">
+                    <center>
+                        <div id="line_top_x" class="chats" style=" width: 800px; height: 400px; border-style: groove;">
+
+                        </div>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#GulfCooperationCouncil">Gulf Cooperation Council</a>
+                </li>
+                <li>
+                    <a href="index.html#OtherArabLeagueCountries">Other Arab League Countries</a>
+                </li>
+                <li>
+                    <a href="index.html#IslamicnotArabiccountries">IslamicnotArabiccountries</a>
+                </li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>
+
+

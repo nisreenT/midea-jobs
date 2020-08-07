@@ -1,0 +1,468 @@
+/*...............................media screan......................................*/
+
+@media only screen and (max-width: 600px) {
+    .header-div {
+        justify-content: center;
+    }
+
+    .button-text {
+        display: none !important;
+    }
+
+    #MoreLess {
+        margin-top: -0px;
+        margin-left: -50px;
+    }
+
+    .topic {
+        width: 40%;
+        text-align: center;
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+
+
+    .topic-title::before {
+        content: '\A';
+        white-space: pre;
+    }
+
+    .topic-title {
+        font-size: 16pt !important;
+    }
+
+    .right-buttons {
+        display: table-cell;
+        width: 30%;
+    }
+
+    .login-button {
+        width: 70px !important;
+    }
+
+    .modal {
+        left: 2% !important;
+    }
+
+    .table_content {
+        float: unset;
+    }
+
+    .content {
+    }
+
+    .small-section {
+        width: 100% !important;
+    }
+
+    .big-section {
+        width: 100% !important;
+    }
+
+    .chats {
+        width: 290px !important;
+        height: 190px !important;
+    }
+
+    body {
+        box-sizing: border-box;
+    }
+
+    li {
+        display: grid !important;
+        text-align: center;
+    }
+
+    ul {
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px){
+
+    .header-div {
+        justify-content: center;
+        font-size: 10pt;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .button-text {
+        display: none !important;
+    }
+
+    .topic {
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+
+    .topic-title {
+        content: '\A';
+        white-space: pre;
+        font-size: 20pt;
+    }
+
+    .right-buttons {
+        display: table-cell;
+        float: unset;
+    }
+
+    .login-button {
+        width: 100px;
+        margin-right: -90%;
+    }
+
+    .modal {
+        left: 2% !important;
+    }
+
+    .table_content {
+        float: unset;
+        margin: 0;
+    }
+
+    .content {
+        width: 100%;
+        align-content: center;
+    }
+
+    .small-section {
+        width: 100% !important;
+    }
+
+    .big-section {
+        width: 100% !important;
+    }
+
+    .chats {
+        width: 500px !important;
+        height: 300px !important;
+    }
+
+    .text-display-none {
+        display: none;
+    }
+
+    body {
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+
+    .header-div {
+        justify-content: center;
+        font-size: 10pt;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .button-text {
+        display: none !important;
+    }
+
+    .topic {
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+
+    .topic-title {
+        content: '\A';
+        white-space: pre;
+        font-size: 26pt;
+    }
+
+    .right-buttons {
+        display: table-cell;
+        float: unset;
+    }
+
+    .login-button {
+        width: 100px;
+        margin-right: -90%;
+    }
+
+    .modal {
+        left: 2% !important;
+    }
+    /*
+    .table_content {
+        float: unset;
+        margin: 0;
+    }
+
+    .content {
+        width: 100%;
+        align-content: center;
+    }*/
+
+    .chats {
+        width: 500px !important;
+        height: 300px !important;
+    }
+
+    .chats3 {
+        width: 500px !important;
+        height: 300px !important;
+    }
+}
+
+/*.......................................................................................................................*/
+
+
+body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+            color: #333;
+            background-color: #fff;
+
+        }
+
+        header{
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            min-height: 47px;
+
+        }
+
+        .topic {
+            text-align: center;
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        .topic-title {
+            font-family: fantasy;
+            color: #333;
+            font-size: 30pt;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        h2 {
+        }
+
+        /*..................................left buttons....................................*/
+
+        .icon {
+            display: inline-block;
+            line-height: 0;
+            vertical-align: middle;
+            font-style: normal;
+        }
+
+        .buttons {
+            float: left;
+        }
+
+        button {
+            background: #ffffff00;
+            border: none;
+        }
+
+        .button-text {
+            /*display: none;*/
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            text-align: left;
+            padding-left: 3%;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+
+        .dropdown-content a {
+                color: #1a0a82;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: contents;
+        }
+
+        .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+        }
+
+        .dropdown:active .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: black;
+        }
+        .dropbtn {
+            padding: 16px;
+            margin-right: 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /*..................................right buttons....................................*/
+
+        #textarea {
+            /* hide by default: */
+            display: none;
+        }
+
+        /* when the checkbox is checked, show the neighbouring #textarea element: */
+        #textAreaToggle:checked + #textarea {
+            display: inline-table;
+            position: absolute;
+        }
+
+        /* position the checkbox off-screen: */
+        /*input[type="checkbox"] {
+            position: absolute;
+            left: -9999px
+        }*/
+
+        #textAreaToggle {
+            position: absolute;
+            left: -9999px;
+        }
+        /* Aesthetics only, adjust to taste: */
+        label {
+            display: block;
+        }
+
+        /* when the checkbox is unchecked (its default state) show the text
+   'Show ' in the label element: */
+        #textAreaToggle + #textarea + label::before {
+            content: ' ';
+        }
+
+        /* when the checkbox is checked 'Hide ' in the label element; the
+   general-sibling combinator '~' is required for a bug in Chrome: */
+        #textAreaToggle:checked ~ #textarea + label::before {
+            content: ' ';
+        }
+
+        #MoreLess {
+            background: #ffffff00;
+            border: none;
+            width: 50%;
+            float: left;
+	    margin-right:-15px;
+        }
+
+        .modal {
+            -webkit-box-shadow: -1px 4px 6px rgba(0,0,0,.09);
+            box-shadow: -1px 4px 6px rgba(0,0,0,.09);
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            z-index: 1000000150;
+            padding: 20px;
+        }
+
+        .login-button {
+            width: 50%;
+            background-color: #6288a5;
+            border-color: #4d7b9f;
+            color: #fff;
+            font-weight: 700;
+            height: 35px;
+            border-radius: 10px;
+        }
+
+        .right-buttons {
+            float: right;
+            width: 20%;
+        }
+
+        /*................................table_content......................................*/
+	table {
+        margin-bottom: 1%;
+	}
+
+	.table_content {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            text-align:center;
+        }
+
+        .T1 {
+            border: none;
+            padding-top:2%;
+            padding-bottom:2%;
+            /*float:left;*/
+        }
+
+        .T2 {
+           
+            border: none;
+            padding-top:2%;
+            padding-bottom:2%;
+            /*float:right;*/
+        }
+
+        .big-section {
+            /*width:70%;*/
+            justify-content: center;
+        }
+        .small-section {
+            padding-left: 5%;
+            padding-right: 5%;
+            color:crimson;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14pt;
+            text-align: center;
+            /*width:30%;*/
+        }
+
+        .color1 {
+            background-color: #9292941a;
+        }
+
+        .color2 {
+            background-color: #aeaeb14f;
+        }
+
+        .color3 {
+            background-color: #cfcfd2c2;
+        }
+
+        td {
+            border-style: inset;
+        }
+
+        ul {
+            list-style-type: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align:center;
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            padding-left: 5%;
+            padding-right:5%;
+        }
+
+        li a:hover {
+        color:crimson;
+        font-size:16pt;
+        }
+        
+        footer {
+            border-bottom: 1px solid #ccc;
+        }
+   
